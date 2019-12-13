@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'study',
+  projectName: 'myproject',
   date: '2019-12-13',
   designWidth: 750,
   deviceRatio: {
