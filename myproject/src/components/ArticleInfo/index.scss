@@ -1,0 +1,36 @@
+.com-article-info{
+  &-item{
+    display: flex;
+    margin-bottom: 12rpx;
+    font-size: 24rpx;
+    line-height: 36rpx;
+    &-stretch{
+      width: 200rpx;
+      height: 36rpx;
+      display: inline-block;
+      text-align: justify;
+      font-weight: 600;
+      color: #0c0d0f;
+      flex-shrink: 0;
+
+    }
+    &-stretch::after{
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 0;
+      line-height: 0;
+    }
+    &-quote{
+      display: inline-block;
+      font-weight: 600;
+      color: #0c0d0f;
+      flex-shrink: 0;
+    }
+    &-value{
+      font-weight: 400;
+      color: #878e99;
+    }
+  }
+  
+}

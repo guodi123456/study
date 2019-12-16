@@ -1,0 +1,93 @@
+.app-poi-list {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  &-input {
+    width: 100%;
+    padding: 40rpx 40rpx 20rpx;
+    background-color: #ffffff;
+  }
+  &-select {
+    display: flex;
+    padding: 20rpx 0;
+    background-color: #ffffff;
+    &-item {
+      width: 33.3%;
+    }
+  }
+  &-tag {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 30rpx 40rpx 0 20rpx;
+    &-item {
+      padding: 0 32rpx;
+      border: 2rpx solid #C9CED6;
+      border-radius: 4rpx;
+      margin-left: 20rpx;
+      background-color: #ffffff;
+      font-size: 28rpx;
+      font-weight: 400;
+      line-height: 60rpx;
+      color: #878e99;
+      flex-shrink: 0;
+    }
+    .active {
+      background-color: #f9e333;
+      border-color: #000000;
+      color: #000000;
+    }
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 30rpx 40rpx 10rpx;
+    &-left {
+      &-item {
+        width: 320rpx;
+        margin-bottom: 20rpx;
+      }
+      &-item:nth-child(6n+1) {
+        height: 568rpx;
+      }
+      &-item:nth-child(6n+2) {
+        height: 320rpx;
+      }
+      &-item:nth-child(6n+3) {
+        height: 426rpx;
+      }
+      &-item:nth-child(6n+4) {
+        height: 426rpx;
+      }
+      &-item:nth-child(6n+5) {
+        height: 320rpx;
+      }
+      &-item:nth-child(6n+6) {
+        height: 568rpx;
+      }
+    }
+    &-right {
+      &-item {
+        width: 320rpx;
+        margin-bottom: 20rpx;
+      }
+      &-item:nth-child(6n+1) {
+        height: 426rpx;
+      }
+      &-item:nth-child(6n+2) {
+        height: 320rpx;
+      }
+      &-item:nth-child(6n+3) {
+        height: 568rpx;
+      }
+      &-item:nth-child(6n+4) {
+        height: 568rpx;
+      }
+      &-item:nth-child(6n+5) {
+        height: 320rpx;
+      }
+      &-item:nth-child(6n+6) {
+        height: 426rpx;
+      }
+    }
+  }
+}
